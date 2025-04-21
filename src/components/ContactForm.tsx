@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -89,7 +88,7 @@ const ContactForm = () => {
           value={formData.phone}
           onChange={handleChange}
           required
-          placeholder="+56 9 XXXX XXXX"
+          placeholder="+56900000000"
           className="w-full"
         />
       </div>

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
@@ -22,35 +21,39 @@ const Navbar = () => {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <Logo className="h-12 w-auto" />
+              <img
+                src="/public/logo.png"
+                alt="Icono"
+                className="h-14 w-14 mr-2"
+              />
               <span className="ml-3 text-xl font-semibold text-mediacion-blue">
-                Mediación Atacama
+                Mediación Diego de Almagro
               </span>
             </Link>
           </div>
-          
+
           {/* Desktop menu */}
           <div className="hidden md:flex md:items-center md:space-x-4">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="px-3 py-2 text-mediacion-blue hover:text-mediacion-green transition duration-150"
             >
               Inicio
             </Link>
-            <Link 
-              to="/sobre-nosotros" 
+            <Link
+              to="/sobre-nosotros"
               className="px-3 py-2 text-mediacion-blue hover:text-mediacion-green transition duration-150"
             >
               Sobre Nosotros
             </Link>
-            <Link 
-              to="/servicios" 
+            <Link
+              to="/servicios"
               className="px-3 py-2 text-mediacion-blue hover:text-mediacion-green transition duration-150"
             >
               Servicios
             </Link>
-            <Link 
-              to="/cobertura" 
+            <Link
+              to="/cobertura"
               className="px-3 py-2 text-mediacion-blue hover:text-mediacion-green transition duration-150"
             >
               Cobertura
@@ -61,7 +64,7 @@ const Navbar = () => {
               </Button>
             </Link>
           </div>
-          
+
           {/* Mobile menu button */}
           <div className="flex md:hidden items-center">
             <button
@@ -77,7 +80,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Mobile menu */}
       <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg rounded-b-lg">
