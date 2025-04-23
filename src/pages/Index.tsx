@@ -279,7 +279,7 @@ const Index = () => {
               asChild
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/20"
+              className="bg-white text-mediacion-blue hover:bg-mediacion-beige hover:text-mediacion-blue"
             >
               <a
                 href="https://wa.me/56957908074?text=Hola%2C%20quiero%20consultar%20sobre%20servicios%20de%20mediaci%C3%B3n%20familiar"

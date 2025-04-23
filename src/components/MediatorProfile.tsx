@@ -19,12 +19,8 @@ const MediatorProfile = () => {
 
             <div className="mt-4 space-y-2">
               <div className="flex items-center text-sm">
-                <span className="font-medium w-32">Registro No:</span>
-                <span>12345</span>
-              </div>
-              <div className="flex items-center text-sm">
-                <span className="font-medium w-32">Número de acta:</span>
-                <span>A-789</span>
+                <span className="font-medium w-32">Registro N°</span>
+                <span>9190</span>
               </div>
               <div className="flex items-center text-sm">
                 <span className="font-medium w-32">Horario:</span>
@@ -68,26 +64,40 @@ const MediatorProfile = () => {
               Perfil Profesional
             </h4>
             <p className="text-gray-700 mb-4">
-              Mediadora familiar con más de 10 años de experiencia ayudando a
-              familias a resolver conflictos de manera pacífica y constructiva.
-              Especializada en mediación de divorcios, custodia infantil y
-              conflictos familiares.
+              Trabajadora Social y Licenciada en Trabajo Social de la Pontifica
+              Universidad Católica de Valparaíso. Durante más de 10 años de
+              experiencia profesional en el área de infancia y familias,
+              contribuyendo a resolver conflictos de manera pacífica y
+              constructiva. Especializada en temáticas de vulneración de
+              derechos, pericia social y mediación familiar.
             </p>
             <p className="text-gray-700 mb-4">
               Mi enfoque se basa en la empatía, la neutralidad y el respeto a
-              todas las partes involucradas, con el objetivo de facilitar
-              acuerdos duraderos que beneficien a todos los miembros de la
-              familia, especialmente a los niños.
+              todas las partes involucradas, con el objetivo de ser un tercer
+              imparcial que facilite el diálogo para establecer acuerdos
+              duraderos que beneficien a todos los miembros de la familia,
+              especialmente a los niños, niñas y adolescentes.
             </p>
 
             <h4 className="text-lg font-semibold text-mediacion-blue mt-6 mb-3">
               Formación Académica
             </h4>
             <ul className="list-disc pl-5 text-gray-700 space-y-1">
-              <li>Licenciada en Trabajo Social - Universidad de Chile</li>
-              <li>Máster en Mediación Familiar - Universidad Católica</li>
               <li>
-                Diplomado en Resolución de Conflictos - Universidad Andrés Bello
+                Trabajadora Social y Licenciada en Trabajo Social de la
+                Pontificia Universidad Católica de Valparaíso.
+              </li>
+              <li>
+                Diplomada en Pericia Social en Juicios Orales, Pontificia
+                Universidad Católica de Chile.
+              </li>
+              <li>
+                Diplomada en Mediación Familiar, Instituto Profesional IACC.
+              </li>
+              <li>
+                Diplomada de especialización en Familia, Infancia y Niñez para
+                Tribunales de Familia y Consejería Técnica, Universidad Gabriela
+                Mistral.
               </li>
             </ul>
 
@@ -95,13 +105,15 @@ const MediatorProfile = () => {
               Certificaciones
             </h4>
             <ul className="list-disc pl-5 text-gray-700 space-y-1">
+              <li>Registro de Mediadores: N° 9190.</li>
               <li>
-                Mediadora Familiar registrada en el Ministerio de Justicia
+                Mediadora Familiar Privada, Registro Único de Mediadores de la
+                Ley N° 19.968, Ministerio de Justicia y Derechos Humanos.
               </li>
-              <li>Certificación en Técnicas de Comunicación No Violenta</li>
+              <li>Certificación en técnicas de comunicación no violenta.</li>
               <li>
-                Especialista en Mediación con Enfoque en Derechos de Niños y
-                Adolescentes
+                Especialista en Mediación con Enfoque en Derechos de Niños,
+                Niñas y Adolescentes.
               </li>
             </ul>
           </div>

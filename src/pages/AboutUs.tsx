@@ -150,21 +150,22 @@ const AboutUs = () => {
                 Nuestra Historia
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Mediación Diego de Almagro nació en 2025 como respuesta a la
-                creciente necesidad de servicios de mediación familiar de
-                calidad en la región. Desde entonces, hemos acompañado a cientos
-                de familias en sus procesos de resolución de conflictos.
+                Mediación Diego de Almagro, nace a inicios del 2025 como
+                respuesta a la necesidad de servicios de mediación familiar en
+                breve plazo y de calidad en la comuna. Desde ese entonces, hemos
+                acompañado a familiar en sus procesos de resolución de
+                conflictos de forma pacífica.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                A lo largo de estos años, hemos ampliado nuestra cobertura para
-                llegar a más comunidades de la región de Atacama, incorporando
-                también servicios online para facilitar el acceso a la
-                mediación.
+                A lo largo de este tiempo, la cobertura se ha ampliado para
+                llegar a más localidades de la comuna de Diego de Almagro,
+                incorporando también servicios online para facilitar el acceso a
+                la mediación.
               </p>
               <p className="text-lg text-gray-700">
                 Nuestro compromiso con la excelencia y el servicio nos ha
                 permitido ganar la confianza de las familias y establecernos
-                como un referente en mediación familiar en la región.
+                como un referente en mediación familiar en la comuna.
               </p>
             </div>
             <div>
