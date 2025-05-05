@@ -188,7 +188,8 @@ const Coverage = () => {
                 Oficina Principal - Diego de Almagro
               </h3>
               <p className="mb-2">
-                <strong>Dirección:</strong> Avda Juan Martinez #1105
+                <strong>Dirección:</strong> Avda Juan Martinez #1402 oficina 05
+                segundo piso, Diego de Almagro
               </p>
               <p className="mb-2">
                 <strong>Horario:</strong> Lunes a Viernes de 8:30 a 17:30 hrs
@@ -197,7 +198,7 @@ const Coverage = () => {
                 <strong>Teléfono:</strong> +56957908074
               </p>
               <p className="mb-6">
-                <strong>Email:</strong> mediaciondda@outlook.com
+                <strong>Email:</strong> contactofgallardo@mediaciondealmagro.cl
               </p>
 
               <div className="h-48 rounded-lg overflow-hidden">

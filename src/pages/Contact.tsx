@@ -46,7 +46,9 @@ const Contact = () => {
                     <h3 className="font-semibold text-lg">
                       Correo Electrónico
                     </h3>
-                    <p className="text-gray-700">mediaciondda@outlook.com</p>
+                    <p className="text-gray-700">
+                      contactofgallardo@mediaciondiegodealmagro.cl
+                    </p>
                     <p className="text-sm text-gray-500 mt-1">
                       Respondemos en un plazo máximo de 24 horas
                     </p>
@@ -60,7 +62,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg">Dirección</h3>
                     <p className="text-gray-700">
-                      Avda. Juan Martinez #1105, Diego de Almagro.
+                      Avda. Juan Martinez #1402 oficina 05 Segundo piso, Diego
+                      de Almagro.
                     </p>
                     <p className="text-sm text-gray-500 mt-1">
                       Región de Atacama, Chile.
@@ -160,16 +163,15 @@ const Contact = () => {
             </p>
           </div>
 
-          <div className="rounded-lg overflow-hidden shadow-xl h-[400px]">
+          <div className="h-48 rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!3m7!1e1!3m5!1s3mtpUp9is0g7QSuv_0nzzA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail..."
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3573.98274277484!2d-70.04830672468142!3d-26.391745171638117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96a318ab38a1bf89%3A0x4c5dd9a31463d346!2sJuan%20Mart%C3%ADnez%20de%20Rozas%201103%2C%20Diego%20de%20Almagro%2C%20Atacama!5e0!3m2!1ses-419!2scl!4v1745248156508!5m2!1ses-419!2scl"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              title="Ubicación de Mediación Diego de Almagro"
-              aria-label="Mapa de ubicación de Mediación Diego de Almagro"
+              title="Oficina Diego de Almagro"
             ></iframe>
           </div>
         </div>

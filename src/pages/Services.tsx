@@ -58,13 +58,6 @@ const Services = () => {
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
                   <span>
-                    <strong>Divorcio y separación:</strong> Acuerdos sobre
-                    bienes, compensación económica y otros aspectos.
-                  </span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
-                  <span>
                     <strong>Cuidado personal de los hijos:</strong> Decisiones
                     sobre con quién vivirán los niños.
                   </span>
@@ -93,7 +86,7 @@ const Services = () => {
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
                   <span>
-                    <strong>Mediación post-divorcio:</strong> Resolución de
+                    <strong>Mediación pre-divorcio:</strong> Resolución de
                     problemas que surgen después de la separación.
                   </span>
                 </li>
@@ -402,9 +395,7 @@ const Services = () => {
                 legalmente a través de su homologación judicial, lo que los
                 convierte en vinculantes.
               </p>
-            </div>
 
-            <div>
               <h3 className="text-xl font-semibold text-mediacion-blue mb-3">
                 ¿Necesito un abogado durante la mediación?
               </h3>
@@ -424,12 +415,96 @@ const Services = () => {
               </p>
 
               <h3 className="text-xl font-semibold text-mediacion-blue mb-3">
-                ¿Qué sucede si no llegamos a un acuerdo?
+                ¿En qué momento se puede mediar?
               </h3>
               <p className="text-gray-700 mb-6">
-                Si las partes no llegan a un acuerdo, pueden recurrir a otras
-                vías como el proceso judicial. La mediación es voluntaria y las
-                partes pueden retirarse en cualquier momento.
+                En cualquier momento antes de iniciar un proceso judicial,
+                cuando ya se ha iniciado un proceso por la presentación de una
+                demanda y durante la tramitación de un proceso se puede
+                solicitar una mediación hasta 5 días hábiles antes de la
+                audiencia de juicio.
+              </p>
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-3">
+                ¿Si una parte solicita la mediación como hacer que la otra
+                persona asista?
+              </h3>
+              <p className="text-gray-700 mb-6">
+                Una vez que la parte interesada solicita la mediación, la
+                mediadora invita a la otra parte telefónicamente, por correo
+                electrónico y por carta certificada a realizar una mediación
+                familiar, indicándole el motivo y los beneficios de la
+                mediación.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-3">
+                ¿Qué pasa si una de las partes no se presenta o no quiere
+                mediar?
+              </h3>
+              <p className="text-gray-700 mb-6">
+                En estos casos como la asistencia es voluntaria se da por
+                frustrada la mediación y se emite un CERTIFICADO DE MEDIACION
+                FRUSTRADA, que habilita al solicitante para continuar la
+                tramitación ante un Tribunal de Familia, para lo cual requerirá
+                un abogado/a.
+              </p>
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-3">
+                ¿Cómo termina la mediación familiar?
+              </h3>
+              <p className="text-gray-700 mb-6">
+                <ul>
+                  <li>
+                    La mediación puede terminar con acuerdo de las partes, sea
+                    este total / parcial o sin acuerdo.
+                  </li>
+                  <li>
+                    * Con acuerdo total o parcial: En este caso se elabora el
+                    “Acta de Mediación” que debe ser leída y firmada por las
+                    partes y mediador, quien entrega una copia a cada
+                    participante y despacha el acuerdo al tribunal para su
+                    aprobación. Sucedido esto último, el acta de mediación
+                    adquiere el mismo valor que la sentencia dictada por un juez
+                    en un juicio. El acuerdo puede haberse logrado en todos los
+                    puntos planteados o puede haberse alcanzado sólo en parte de
+                    ellos, debiendo el juez resolver los puntos pendientes al
+                    continuar la tramitación de la causa en el tribunal.
+                  </li>
+                  <li>
+                    * Sin acuerdo: Sea por la inasistencia injustificada de las
+                    personas citadas a la primera sesión, por desequilibrio de
+                    poderes entre los partes en conflicto, o por adquirir el
+                    mediador la convicción de que no se llegará a acuerdo. En
+                    este caso el/la mediador/a debe dar cuenta de esta
+                    circunstancia, emitiendo un “Acta o Certificado de Mediación
+                    Frustrada”.
+                  </li>
+                </ul>
+              </p>
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-3">
+                ¿Se puede mediar cuando hay violencia intrafamiliar?{" "}
+              </h3>
+              <p className="text-gray-700 mb-6">
+                En principio NO, pero en los casos de violencia no constitutiva
+                de delitos, se pueden alcanzar acuerdos entre las partes sobre
+                temas no vinculados con la violencia misma, como alimentos,
+                cuidado personal, relación directa y regular. <br />
+                Si existe alguna medida cautelar, como orden de alejamiento, el
+                mediador emitirá el Certificado de Mediación Frustrada que
+                habilita a las partes a iniciar las acciones judiciales.
+              </p>
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-3">
+                ¿Pueden modificarse los acuerdos de mediación?{" "}
+              </h3>
+              <p className="text-gray-700 mb-6">
+                Sí, cuando han cambiado las circunstancias que originaron un
+                determinado Acuerdo. Por ejemplo entregar el Cuidado Personal
+                del hijo al otro progenitor, Aumentar, Rebajar y hacer Cese de
+                la Pensión de Alimentos, Modificar el Régimen de Relación
+                Directa y Regular, etc . <br />
+                Para hacer la modificación, se debe volver a mediar y se redacta
+                una Nueva Acta de Mediación que deberá ser aprobada por el
+                juzgado de familia.
               </p>
             </div>
           </div>

@@ -10,9 +10,9 @@ const MediatorProfile = () => {
 
       <div className="p-6">
         <div className="flex flex-col md:flex-row gap-6">
-          <div className="md:w-1/3">
+          <div className="md:w-1/4 ">
             <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              src="/public/foto_400x400.jpg"
               alt="Mediadora Familiar"
               className="w-full rounded-lg shadow-sm object-cover aspect-square"
             />
@@ -47,7 +47,7 @@ const MediatorProfile = () => {
                   <Instagram className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://linkedin.com/in/fabiola-gallardo-araya-12709557"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-mediacion-blue text-white p-2 rounded-full hover:bg-mediacion-lightBlue transition"

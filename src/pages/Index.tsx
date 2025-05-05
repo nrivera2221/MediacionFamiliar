@@ -4,6 +4,8 @@ import {
   Calendar,
   Video,
   MessageCircle,
+  List,
+  HandCoins,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -63,15 +65,53 @@ const Index = () => {
               Nuestros Servicios
             </h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Ofrecemos servicios profesionales de mediación para resolver
-              conflictos familiares de manera pacífica y efectiva.
+              La Mediación Familiar es un sistema de resolución de conflictos en
+              el que un tercero imparcial, llamado Mediador, ayuda a las partes
+              a buscar por sí mismas una solución al conflicto y sus efectos
+              mediante acuerdos. El mediador los ayuda a obtener una solución
+              que surja de ellos mismos, a través de sesiones realizadas fuera
+              del tribunal, en un ambiente que favorece el entendimiento.
+              <ul>
+                <li>
+                  La Mediación Familiar Privada, realizará una atención de
+                  manera particular, en las siguientes materias de mediación
+                  previa y obligatoria:
+                </li>
+              </ul>
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard
-              title="Mediación Familiar"
+              title="Mediación Familiar Privada"
               description="Facilitamos el diálogo para resolver conflictos familiares, divorcio, relación directa y regular, alimentos, y más."
+              icon={<Users className="h-6 w-6" />}
+              buttonLink="/servicios#familiar"
+            />
+            <ServiceCard
+              title="Pensión de Alimentos"
+              description="Solicitud de Alimentos.
+Cese de Alimentos.
+ Rebaja de Alimentos.
+Aumentos de Alimentos."
+              icon={<HandCoins className="h-6 w-6" />}
+              buttonLink="/servicios#online"
+            />
+            <ServiceCard
+              title="Relación Directa y Regular"
+              description="Solicitud de Relación Directa y Regular (visitas).
+Modificación de Relación
+Directa y Regular (visitas)."
+              icon={<Users className="h-6 w-6" />}
+              buttonText="Agendar ahora"
+              buttonLink="/contacto"
+            />
+            <ServiceCard
+              title="Cuidado personal"
+              description="Solicitud de Cuidado Personal del Niño, Niña o
+adolescente.
+Modificación del Cuidado
+Personal."
               icon={<Users className="h-6 w-6" />}
               buttonLink="/servicios#familiar"
             />

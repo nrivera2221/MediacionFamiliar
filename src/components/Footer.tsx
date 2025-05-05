@@ -77,10 +77,10 @@ const Footer = () => {
               <li className="flex items-center">
                 <span>Email:</span>
                 <a
-                  href="mailto:mediaciondda@outlook.com"
+                  href="mailto:contactofgallardo@mediaciondiegodealmagro.cl"
                   className="ml-2 text-white/80 hover:text-white transition"
                 >
-                  mediaciondda@outlook.com
+                  contactofgallardo@mediaciondiegodealmagro.cl
                 </a>
               </li>
               <li>
