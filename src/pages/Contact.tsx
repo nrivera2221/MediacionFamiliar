@@ -117,7 +117,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/mediaciondda/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-mediacion-blue text-white p-2 rounded-full hover:bg-mediacion-lightBlue transition"

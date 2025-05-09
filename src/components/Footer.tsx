@@ -81,7 +81,11 @@ const Footer = () => {
               </li>
               <li>
                 <span>Horario:</span>
-                <p className="text-white/80">Lun - Vie: 8:30 - 17:30</p>
+                <p className="text-white/80">
+                  {" "}
+                  Lunes a Viernes de 8:30 a 17:30 hrs Sábados de 11:00 a 16:00
+                  hrs
+                </p>
               </li>
             </ul>
           </div>
