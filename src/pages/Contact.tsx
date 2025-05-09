@@ -80,7 +80,8 @@ const Contact = () => {
                       Horario de Atención
                     </h3>
                     <p className="text-gray-700">
-                      Lunes a Viernes: 8:30 - 17:30 hrs
+                      Lunes a Viernes de 8:30 a 17:30 hrs Sábados de 11:00 a
+                      16:00 hrs
                     </p>
                     <p className="text-sm text-gray-500 mt-1">
                       Consulta por horarios especiales
@@ -140,8 +141,14 @@ const Contact = () => {
 
             <div>
               <h2 className="text-2xl font-bold text-mediacion-blue mb-6">
-                Envíanos un mensaje
+                Formulario de Mediación
               </h2>
+              <p>
+                Nuestro servicio de mediación privada le permite agendar
+                mediación en un plazo máximo de 48 horas. Considerar que este
+                servicio no es gratuito y tiene un costo asociado, un mediador
+                se contactará para coordinar su día y hora de mediación.
+              </p>
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <ContactForm />
               </div>

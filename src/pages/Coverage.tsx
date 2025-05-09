@@ -193,6 +193,7 @@ const Coverage = () => {
               </p>
               <p className="mb-2">
                 <strong>Horario:</strong> Lunes a Viernes de 8:30 a 17:30 hrs
+                Sábados de 11:00 a 16:00 hrs
               </p>
               <p className="mb-2">
                 <strong>Teléfono:</strong> +56957908074
