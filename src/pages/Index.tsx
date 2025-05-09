@@ -19,7 +19,7 @@ const Index = () => {
       <section className="relative">
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "/public/mediaciondda.jpg" }}
+          style={{ backgroundImage: "/mediaciondda.jpg" }}
         >
           <div className="absolute inset-0 bg-mediacion-blue/70"></div>
         </div>
@@ -91,17 +91,17 @@ const Index = () => {
             <ServiceCard
               title="Pensión de Alimentos"
               description="Solicitud de Alimentos.
-Cese de Alimentos.
- Rebaja de Alimentos.
-Aumentos de Alimentos."
+                Cese de Alimentos.
+                Rebaja de Alimentos.
+                Aumentos de Alimentos."
               icon={<HandCoins className="h-6 w-6" />}
               buttonLink="/servicios#online"
             />
             <ServiceCard
               title="Relación Directa y Regular"
               description="Solicitud de Relación Directa y Regular (visitas).
-Modificación de Relación
-Directa y Regular (visitas)."
+                Modificación de Relación
+                Directa y Regular (visitas)."
               icon={<Users className="h-6 w-6" />}
               buttonText="Agendar ahora"
               buttonLink="/contacto"
@@ -109,9 +109,9 @@ Directa y Regular (visitas)."
             <ServiceCard
               title="Cuidado personal"
               description="Solicitud de Cuidado Personal del Niño, Niña o
-adolescente.
-Modificación del Cuidado
-Personal."
+                adolescente.
+                Modificación del Cuidado
+                Personal."
               icon={<Users className="h-6 w-6" />}
               buttonLink="/servicios#familiar"
             />
@@ -138,7 +138,7 @@ Personal."
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <img
-                src="/public/mediacionddabg.jpg"
+                src="/mediacionddabg.jpg"
                 alt="Mediación online"
                 className="rounded-lg shadow-lg"
               />

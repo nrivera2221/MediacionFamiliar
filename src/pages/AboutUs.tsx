@@ -170,7 +170,7 @@ const AboutUs = () => {
             </div>
             <div>
               <img
-                src="/public/mediaciondda3.jpg"
+                src="/mediaciondda3.jpg"
                 alt="Nuestra historia"
                 className="rounded-lg shadow-lg"
               />

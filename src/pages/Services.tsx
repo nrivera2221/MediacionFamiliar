@@ -24,7 +24,7 @@ const Services = () => {
             <div className="md:w-1/2">
               <div className="rounded-lg overflow-hidden">
                 <img
-                  src="/public/mediaciondda4.jpg"
+                  src="/mediaciondda4.jpg"
                   alt="Mediación familiar"
                   className="w-full h-auto"
                 />
@@ -113,7 +113,7 @@ const Services = () => {
             <div className="md:w-1/2">
               <div className="rounded-lg overflow-hidden">
                 <img
-                  src="/public/mediacionddabg2.jpg"
+                  src="/mediacionddabg2.jpg"
                   alt="Mediación online"
                   className="w-full h-auto"
                 />
