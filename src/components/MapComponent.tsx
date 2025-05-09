@@ -55,7 +55,7 @@ const MapComponent: React.FC<MapProps> = ({ className = "" }) => {
     // Cargar el script de Google Maps si no está presente
     if (!window.google || !window.google.maps) {
       const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyBZUd6-oawCUMXGsh6TUejhm91gh3VDuXA&callback=initMap`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAntJ8l3vaiVMZnPHGeYYoMAMY1zmb37FU`;
       script.async = true;
       script.defer = true;
       window.initMap = initMap;
