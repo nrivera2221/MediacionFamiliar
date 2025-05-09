@@ -83,8 +83,11 @@ const Index = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard
-              title="Mediación Familiar Privada"
-              description="Facilitamos el diálogo para resolver conflictos familiares, divorcio, relación directa y regular, alimentos, y más."
+              title="Cuidado personal"
+              description="Solicitud de Cuidado Personal del Niño, Niña o
+                adolescente.
+                Modificación del Cuidado
+                Personal."
               icon={<Users className="h-6 w-6" />}
               buttonLink="/servicios#familiar"
             />
@@ -95,7 +98,7 @@ const Index = () => {
                 Rebaja de Alimentos.
                 Aumentos de Alimentos."
               icon={<HandCoins className="h-6 w-6" />}
-              buttonLink="/servicios#online"
+              buttonLink="/servicios#familiar"
             />
             <ServiceCard
               title="Relación Directa y Regular"
@@ -103,17 +106,13 @@ const Index = () => {
                 Modificación de Relación
                 Directa y Regular (visitas)."
               icon={<Users className="h-6 w-6" />}
-              buttonText="Agendar ahora"
-              buttonLink="/contacto"
+              buttonLink="/servicios#familiar"
             />
             <ServiceCard
-              title="Cuidado personal"
-              description="Solicitud de Cuidado Personal del Niño, Niña o
-                adolescente.
-                Modificación del Cuidado
-                Personal."
+              title="Mediación Familiar Privada"
+              description="Facilitamos el diálogo para resolver conflictos familiares, divorcio, relación directa y regular, alimentos, y más."
               icon={<Users className="h-6 w-6" />}
-              buttonLink="/servicios#familiar"
+              buttonLink="/servicios#online"
             />
             <ServiceCard
               title="Mediación Online"

@@ -33,7 +33,8 @@ const Contact = () => {
                     <h3 className="font-semibold text-lg">Teléfono</h3>
                     <p className="text-gray-700">+56957908074</p>
                     <p className="text-sm text-gray-500 mt-1">
-                      Lunes a Viernes: 8:30 - 17:30 hrs
+                      Lunes a Viernes de 8:30 a 17:30 hrs Sábados de 11:00 a
+                      16:00 hrs
                     </p>
                   </div>
                 </div>

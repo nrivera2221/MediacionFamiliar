@@ -99,7 +99,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/mediaciondda/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-white/10 p-2 rounded-full hover:bg-white/20 transition"

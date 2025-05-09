@@ -24,7 +24,11 @@ const MediatorProfile = () => {
               </div>
               <div className="flex items-center text-sm">
                 <span className="font-medium w-32">Horario:</span>
-                <span>Lun-Vie 8:30-17:30</span>
+                <span>
+                  {" "}
+                  Lunes a Viernes de 8:30 a 17:30 hrs Sábados de 11:00 a 16:00
+                  hrs
+                </span>
               </div>
 
               <div className="flex mt-4 space-x-3">
@@ -38,7 +42,7 @@ const MediatorProfile = () => {
                   <Facebook className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/mediaciondda/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-mediacion-blue text-white p-2 rounded-full hover:bg-mediacion-lightBlue transition"
