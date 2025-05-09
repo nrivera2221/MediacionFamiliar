@@ -9,11 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center md:items-start">
             <div className="flex items-center mb-4">
-              <img
-                src="/public/logo.png"
-                alt="Icono"
-                className="h-12 w-12 mr-2"
-              />
+              <img src="/logo.png" alt="Icono" className="h-12 w-12 mr-2" />
               <span className="ml-2 text-lg font-semibold">
                 Mediación Diego de Almagro
               </span>

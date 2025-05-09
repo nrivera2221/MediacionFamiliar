@@ -1,7 +1,13 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 
 interface ServiceCardProps {
   title: string;
@@ -36,8 +42,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         </CardDescription>
       </CardContent>
       <CardFooter>
-        <Button 
-          asChild 
+        <Button
+          asChild
           variant="outline"
           className="mt-2 border-mediacion-blue text-mediacion-blue hover:bg-mediacion-blue hover:text-white"
         >

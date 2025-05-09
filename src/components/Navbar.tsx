@@ -21,11 +21,7 @@ const Navbar = () => {
         <div className="flex justify-between h-20">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img
-                src="/public/logo.png"
-                alt="Icono"
-                className="h-14 w-14 mr-2"
-              />
+              <img src="/logo.png" alt="Icono" className="h-14 w-14 mr-2" />
               <span className="ml-3 text-xl font-semibold text-mediacion-blue">
                 Mediación Diego de Almagro
               </span>

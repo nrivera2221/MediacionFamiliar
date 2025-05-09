@@ -12,7 +12,7 @@ const MediatorProfile = () => {
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-1/4 ">
             <img
-              src="/public/foto_400x400.jpg"
+              src="/foto_400x400.jpg"
               alt="Mediadora Familiar"
               className="w-full rounded-lg shadow-sm object-cover aspect-square"
             />

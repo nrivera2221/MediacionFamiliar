@@ -28,20 +28,42 @@ const ContactForm = () => {
     e.preventDefault();
     setLoading(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      setLoading(false);
+    try {
+      const response = await fetch("https://formspree.io/f/xanobyge", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Formulario enviado",
+          description: "Nos pondremos en contacto contigo pronto.",
+        });
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      } else {
+        toast({
+          title: "Error al enviar",
+          description: "Revisa los campos e intenta nuevamente.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
       toast({
-        title: "Formulario enviado",
-        description: "Nos pondremos en contacto contigo pronto.",
+        title: "Error de red",
+        description: "Intenta más tarde.",
+        variant: "destructive",
       });
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        message: "",
-      });
-    }, 1000);
+    }
+
+    setLoading(false);
   };
 
   return (
