@@ -1,7 +1,5 @@
 import { useEffect, useRef } from "react";
 
-// Declaración global para evitar errores con google y initMapdeclare global {
-
 declare global {
   interface Window {
     google: typeof google;
@@ -52,17 +50,31 @@ const MapComponent: React.FC<MapProps> = ({ className = "" }) => {
       });
     };
 
-    // Cargar el script de Google Maps si no está presente
-    if (!window.google || !window.google.maps) {
+    const loadScript = () => {
+      const existingScript = document.querySelector(
+        'script[src*="maps.googleapis.com/maps/api/js"]'
+      );
+
+      if (existingScript) {
+        if (window.google && window.google.maps) {
+          initMap();
+        } else {
+          window.initMap = initMap;
+        }
+        return;
+      }
+
+      window.initMap = initMap;
+
       const script = document.createElement("script");
-      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAntJ8l3vaiVMZnPHGeYYoMAMY1zmb37FU`;
+      script.src =
+        "https://maps.googleapis.com/maps/api/js?key=AIzaSyAntJ8l3vaiVMZnPHGeYYoMAMY1zmb37FU&callback=initMap";
       script.async = true;
       script.defer = true;
-      window.initMap = initMap;
       document.head.appendChild(script);
-    } else {
-      initMap();
-    }
+    };
+
+    loadScript();
 
     return () => {
       window.initMap = undefined;
