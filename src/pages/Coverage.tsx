@@ -199,7 +199,8 @@ const Coverage = () => {
                 <strong>Teléfono:</strong> +56957908074
               </p>
               <p className="mb-6">
-                <strong>Email:</strong> contactofgallardo@mediaciondealmagro.cl
+                <strong>Email:</strong>{" "}
+                contactofgallardo@mediaciondiegodealmagro.cl
               </p>
 
               <div className="h-48 rounded-lg overflow-hidden">
