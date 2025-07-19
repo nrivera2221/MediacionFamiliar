@@ -11,45 +11,124 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import ServiceCard from "@/components/ServiceCard";
 import MediatorProfile from "@/components/MediatorProfile";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
+} from "@/components/ui/carousel";
+import { cn } from "@/lib/utils"; // si usas utilidades tailwind como cn()
 
 const Index = () => {
   return (
     <div className="flex flex-col w-full">
       {/* Hero Section */}
-      <section className="relative">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "/mediaciondda.jpg" }}
-        >
-          <div className="absolute inset-0 bg-mediacion-blue/70"></div>
-        </div>
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-36 text-center text-white">
-          <div className="animate-fade-in">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h1 className="text-3xl font-bold text-mediacion-blue mb-4 text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
               Mediación Familiar Profesional en Atacama
             </h1>
             <p className="text-xl md:text-2xl font-light max-w-3xl mx-auto mb-8">
               Soluciones pacíficas para conflictos familiares con atención
               presencial y online
             </p>
+          </div>
+
+          <Carousel className="w-full max-w-4xl mx-auto">
+            <CarouselContent>
+              {[
+                "/mediacion1.jpg",
+                "/mediacion2.jpg",
+                "/mediacion3.jpg",
+                "/mediacion4.jpg",
+                "/mediacion5.jpg",
+                "/mediacion6.jpg",
+              ].map((src, i) => (
+                <CarouselItem key={i} className="p-1">
+                  <div className="overflow-hidden rounded-xl shadow-lg">
+                    <img
+                      src={src}
+                      alt={`Mediación familiar ${i + 1}`}
+                      className="w-full h-96 object-cover object-center transition-transform duration-300 hover:scale-105"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+
+            <CarouselPrevious />
+            <CarouselNext />
+
+            <div className="absolute inset-0 bg-gradient-to-t to-transparent flex items-end justify-center p-8">
+              <div className="text-center mb-8 absolute top-1/2">
+                <h3 className=" text-3xl md:text-2xl font-light max-w-3xl mx-auto mb-8 text-white font-bold text-gray-700">
+                  MEDIACIÓN EN DIEGO DE ALMAGRO
+                </h3>
+              </div>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="bg-white text-mediacion-blue hover:bg-mediacion-beige hover:text-mediacion-blue"
+                >
+                  <Link to="/contacto" className="font-bold text-lg">
+                    Agenda una consulta
+                  </Link>
+                </Button>
+                <Button
+                  asChild
+                  size="lg"
+                  variant="outline"
+                  className="bg-white text-mediacion-blue hover:bg-mediacion-beige hover:text-mediacion-blue"
+                >
+                  <Link to="/servicios" className="font-bold text-lg">
+                    Conoce nuestros servicios
+                    <ArrowRight className="ml-2 h-4 w-4" />
+                  </Link>
+                </Button>
+              </div>
+            </div>
+          </Carousel>
+        </div>
+      </section>
+
+      <section className="py-16 bg-mediacion-beige">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-mediacion-blue mb-4">
+              ¡Transforma el conflicto en acuerdo!
+            </h2>
+            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+              Atrévete a verlo desde otro camino, directo hacia la solución
+              centrada en tus hijos. ¡Basta de desgaste! Evita juicios y
+              transforma el conflicto en acuerdos reales. Sabes que el conflicto
+              constante no los lleva a ninguna parte, solo agota y daña las
+              relaciones importantes. Si están listos para dejar atrás la lucha
+              y empezar a construir soluciones reales y prácticas para su
+              familia (pensando en ustedes y, claro, en sus hijos), la Mediación
+              Familiar es la respuesta.
+            </p>
+
+            <h3 className="text-xl font-bold text-mediacion-blue mb-6">
+              ¿Listo/a para cerrar ese capítulo de lucha por visitas o
+              alimento?. Toma la decisión hoy.
+            </h3>
+            <h1 className="text-xl font-bold text-mediacion-blue mb-4">
+              ¡Contáctanos hoy!
+            </h1>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                asChild
-                size="lg"
-                className="bg-white text-mediacion-blue hover:bg-mediacion-beige hover:text-mediacion-blue"
-              >
-                <Link to="/contacto">Agenda una consulta</Link>
-              </Button>
               <Button
                 asChild
                 size="lg"
                 variant="outline"
                 className="bg-white text-mediacion-blue hover:bg-mediacion-beige hover:text-mediacion-blue"
               >
-                <Link to="/servicios">
-                  Conoce nuestros servicios
-                  <ArrowRight className="ml-2 h-4 w-4" />
+                <Link to="/contacto" className="font-bold text-lg">
+                  Agenda una consulta
                 </Link>
               </Button>
             </div>
@@ -58,9 +137,9 @@ const Index = () => {
       </section>
 
       {/* Services Overview */}
-      <section className="py-16 bg-mediacion-beige">
+      <section className="py-1 bg-mediacion-beige">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-mediacion-blue mb-4">
               Nuestros Servicios
             </h2>
@@ -81,16 +160,23 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <ServiceCard
-              title="Cuidado personal"
-              description="Solicitud de Cuidado Personal del Niño, Niña o
-                adolescente.
-                Modificación del Cuidado
-                Personal."
-              icon={<Users className="h-6 w-6" />}
-              buttonLink="/servicios#familiar"
-            />
+          <h2 className="text-xl font-bold text-mediacion-blue mb-4">
+            NUESTROS SERVICIOS
+          </h2>
+          <div className="container mx-auto px-4">
+            <div className="flex justify-between text-sm sm:text-base">
+              <p className="w-1/3 text-center font-bold text-mediacion-blue mb-4">
+                Mediación obligatoria Ley No 19.968
+              </p>
+              <p className="w-1/3 text-center font-bold text-mediacion-blue mb-4">
+                Mediación voluntaria
+              </p>
+              <p className="w-1/3 text-center font-bold text-mediacion-blue mb-4">
+                Informes para beneficios
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
             <ServiceCard
               title="Pensión de Alimentos"
               description="Solicitud de Alimentos.
@@ -98,7 +184,44 @@ const Index = () => {
                 Rebaja de Alimentos.
                 Aumentos de Alimentos."
               icon={<HandCoins className="h-6 w-6" />}
-              buttonLink="/servicios#familiar"
+              buttonLink="/servicios#alimentos"
+            />
+
+            <ServiceCard
+              title="Mediación deuda de alimentos"
+              description="Eliminación registro deudores de alimentos."
+              icon={<Users className="h-6 w-6" />}
+              buttonLink="/servicios#deuda"
+            />
+
+            <ServiceCard
+              title="Informes Social/Económico"
+              description="Realizamos informes sociales/económicos para postulación a becas y acreditación. Para enseñanza media y superior."
+              icon={<Users className="h-6 w-6" />}
+              buttonLink="/servicios#formularios"
+            />
+            <ServiceCard
+              title="Cuidado personal"
+              description="Solicitud de Cuidado Personal del Niño, Niña o
+                adolescente.
+                Modificación del Cuidado
+                Personal."
+              icon={<Users className="h-6 w-6" />}
+              buttonLink="/servicios#cuidado"
+            />
+            <ServiceCard
+              title="Compensación económica"
+              description="Declaración bienes familiares."
+              icon={<Video className="h-6 w-6" />}
+              buttonLink="/servicios#compensacion"
+            />
+
+            <ServiceCard
+              title="Informe Social"
+              description="Informes sociales para beneficios habitacionales y salud."
+              icon={<Calendar className="h-6 w-6" />}
+              buttonText="Agendar ahora"
+              buttonLink="/servicios#beneficios"
             />
             <ServiceCard
               title="Relación Directa y Regular"
@@ -106,19 +229,13 @@ const Index = () => {
                 Modificación de Relación
                 Directa y Regular (visitas)."
               icon={<Users className="h-6 w-6" />}
-              buttonLink="/servicios#familiar"
+              buttonLink="/servicios#relacion"
             />
             <ServiceCard
-              title="Mediación Familiar Privada"
-              description="Facilitamos el diálogo para resolver conflictos familiares, divorcio, relación directa y regular, alimentos, y más."
-              icon={<Users className="h-6 w-6" />}
-              buttonLink="/servicios#online"
-            />
-            <ServiceCard
-              title="Mediación Online"
-              description="Ofrecemos servicios de mediación a distancia para quienes no pueden asistir presencialmente."
+              title="Autorización"
+              description="Permiso de salida del país de NNA."
               icon={<Video className="h-6 w-6" />}
-              buttonLink="/servicios#online"
+              buttonLink="/servicios#voluntaria"
             />
             <ServiceCard
               title="Agenda tu Cita"

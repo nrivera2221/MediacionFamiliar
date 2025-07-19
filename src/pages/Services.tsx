@@ -106,8 +106,748 @@ const Services = () => {
         </div>
       </section>
 
+      {/* Familia Mediation Services */}
+      <section id="alimentos" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="flex items-center mb-6">
+                <div className="bg-mediacion-blue/10 p-3 rounded-full text-mediacion-blue mr-4">
+                  <Users className="h-6 w-6" />
+                </div>
+                <h2 className="text-3xl font-bold text-mediacion-blue">
+                  Mediación familiar sobre alimentos
+                </h2>
+              </div>
+
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro nos especializamos en la
+                resolución de conflictos relacionados con derechos de alimentos,
+                a través de un enfoque profesional, humano y centrado en el
+                diálogo colaborativo. Nuestro objetivo es ayudarle a alcanzar
+                acuerdos justos y duraderos, siempre bajo la imparcialidad y
+                neutralidad de nuestros mediadores.
+              </p>
+
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                ¿Qué son los derechos de alimentos?
+              </h3>
+              <p>
+                Corresponde a la obligación legal de garantizar todo lo
+                necesario para el bienestar de los niños, niñas y adolescentes.
+                Esto incluye no solo alimentación, sino también vestimenta,
+                educación, salud, recreación, entre otros aspectos esenciales
+                para su desarrollo integral.
+              </p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      Si es hermano o hijo mayor de 21 años del alimentario
+                      (demandado/a),
+                    </strong>
+                    podrían demandar hasta los 28 años mientras se encuentran
+                    estudiando a nivel de enseñanza superior; o, que padezcan
+                    alguna incapacidad física o mental.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Si es cónyuge,</strong> y, además, de la
+                    imposibilidad de cubrir por sí mismo sus necesidades o
+                    existencia de incapacidad física o mental que impida
+                    subsistir total o parcialmente por sí mismo.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      ¿Qué podemos acordar en una mediación por alimentos?
+                    </strong>{" "}
+                    ¿Qué podemos acordar en una mediación por alimentos?
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong> Alimentos ordinarios</strong> Cuando son niños,
+                    niñas y adolescente, les corresponde una mensualidad
+                    destinada a cubrir las necesidades básicas como
+                    alimentación, educación, salud, recreación.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Alimentos extraordinarios</strong> Se refieren a
+                    gastos imprevistos, como urgencias médicas u
+                    hospitalizaciones. Generalmente, se acuerda que estos gastos
+                    se compartirán en partes iguales (50/50) entre ambos padres,
+                    previa presentación de las boletas o comprobantes.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Cuota especial de marzo</strong> ¡Sabemos que marzo
+                    puede ser un mes complejo para las familias! Matrículas,
+                    útiles escolares, uniformes... En mediación, puedes pactar
+                    una cuota especial para hacer frente a estos gastos
+                    escolares, ya sea como un monto adicional a la pensión
+                    habitual o dividiendo los costos entre ambos padres.
+                  </span>
+                </li>
+              </ul>
+
+              <Button
+                asChild
+                className="bg-mediacion-blue hover:bg-mediacion-lightBlue"
+              >
+                <Link to="/contacto">
+                  Solicitar información
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/mediaciondda4.jpg"
+                  alt="Mediación familiar"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Familia Mediation Services */}
+      <section id="relacion" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/mediaciondda4.jpg"
+                  alt="Mediación familiar"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            <div className="md:w-1/2">
+              <div className="flex items-center mb-6">
+                <div className="bg-mediacion-blue/10 p-3 rounded-full text-mediacion-blue mr-4">
+                  <Users className="h-6 w-6" />
+                </div>
+                <h2 className="text-3xl font-bold text-mediacion-blue">
+                  Mediación Familiar sobre relación directa y regular
+                </h2>
+              </div>
+
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro podemos ayudar a resolver
+                disputas sobre la relación directa y regular con los hijos,
+                permitiendo que los progenitores acuerden cómo se mantendrá el
+                contacto con los hijos. Este proceso, que es obligatorio en
+                algunos casos, facilita la comunicación y busca un acuerdo que
+                beneficie a los niños, niñas y adolescentes.
+              </p>
+
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                ¿Qué es la relación directa y regular?
+              </h3>
+              <p>
+                La relación directa y regular, también conocida como visitas, es
+                un derecho y un deber de los padres que no tienen el cuidado
+                personal de sus hijos, para mantener un contacto constante y
+                estable con ellos. Este contacto busca que los hijos e hijas
+                mantengan vínculos con ambos padres, promoviendo una relación
+                sana y cercana.
+              </p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      ¿Quién puede solicitar un régimen de visitas?
+                    </strong>
+                    En Chile, el régimen de visitas —también denominado régimen
+                    de relación directa y regular— tiene como objetivo
+                    garantizar que los niños, niñas y adolescentes mantengan
+                    vínculos afectivos con sus familiares, incluso cuando no
+                    conviven con ellos.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Pueden solicitar este régimen:</strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      El progenitor que no tiene el cuidado personal del menor.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      Los abuelos y otros familiares cercanos, como hermanos y
+                      hermanas.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    En la Mediación Familiar Diego de Almagro, ofrecemos un
+                    servicio especializado para establecer y regular este
+                    derecho, estando comprometido en ayudar a encontrar
+                    soluciones pacíficas, equitativas y centradas en el
+                    bienestar de los niños, niñas y adolescentes, fomentando
+                    relaciones saludables dentro del núcleo familiar.
+                  </span>
+                </li>
+              </ul>
+
+              <Button
+                asChild
+                className="bg-mediacion-blue hover:bg-mediacion-lightBlue"
+              >
+                <Link to="/contacto">
+                  Solicitar información
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Familia Mediation Services */}
+      <section id="cuidado" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="flex items-center mb-6">
+                <div className="bg-mediacion-blue/10 p-3 rounded-full text-mediacion-blue mr-4">
+                  <Users className="h-6 w-6" />
+                </div>
+                <h2 className="text-3xl font-bold text-mediacion-blue">
+                  Mediación familiar sobrecuidado personal (Tuición)
+                </h2>
+              </div>
+
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro ofrecemos un espacio para
+                que ambos padres lleguen a un acuerdo en la crianza, educación y
+                cuidado su hijo o hija menor de edad, teniendo en consideración
+                primordial el interés superior del niño, niña o adolescente.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-6">
+                El cuidado personal lo puede ejercer ambos o solo uno de los
+                padres; en caso de inhabilidad del padre o de la madre, lo puede
+                ejercer un tercero (otro familiar).
+              </p>
+              <p className="text-xl font-semibold mb-4">
+                <strong>
+                  ¿Cuáles son los criterios a considerar para mediar el cuidado
+                  personal?
+                </strong>
+              </p>
+
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      a. El vínculo afectivo existente entre el hijo o hija y su
+                      padre o madre, así como con las demás personas de su
+                      entorno familiar.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      b. La capacidad de cada uno de los padres para asegurar el
+                      bienestar del hijo o hija y brindarle un entorno adecuado,
+                      acorde a su edad.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      c.La contribución económica realizada por cada progenitor
+                      para el sustento del hijo o hija mientras estuvo bajo el
+                      cuidado personal del otro, en caso de haber tenido la
+                      posibilidad de hacerlo.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      d. La disposición de cada progenitor para cooperar con el
+                      otro, con el objetivo de garantizar la mayor estabilidad
+                      posible al hijo o hija y facilitar una relación directa y
+                      regular con ambos.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      e. La dedicación que cada uno brindaba al hijo o hija
+                      antes de la separación y, especialmente, la que puede
+                      continuar ofreciendo de acuerdo con sus circunstancias
+                      actuales.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      f. La opinión manifestada por el hijo o hija.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      i. El lugar de residencia de cada uno de los progenitores.
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      j. Cualquier otro antecedente que sea relevante atendido
+                      el interés superior del hijo o hija.
+                    </strong>
+                  </span>
+                </li>
+              </ul>
+
+              <Button
+                asChild
+                className="bg-mediacion-blue hover:bg-mediacion-lightBlue"
+              >
+                <Link to="/contacto">
+                  Solicitar información
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/mediaciondda4.jpg"
+                  alt="Mediación familiar"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Familia Mediation Services */}
+      <section id="deuda" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/mediaciondda4.jpg"
+                  alt="Mediación familiar"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            <div className="md:w-1/2">
+              <div className="flex items-center mb-6">
+                <div className="bg-mediacion-blue/10 p-3 rounded-full text-mediacion-blue mr-4">
+                  <Users className="h-6 w-6" />
+                </div>
+                <h2 className="text-3xl font-bold text-mediacion-blue">
+                  Mediación Familiar voluntaria sobre deuda de alimentos y
+                  eliminación de deuda en registro nacional de deudores de
+                  alimentos.
+                </h2>
+              </div>
+
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro también mediamos otros
+                tipos de casos, como la deuda de alimentos y la eliminación del
+                Registro Nacional de Deudores de Pensiones de Alimentos, si bien
+                son dos procesos distintos, están relacionados con el
+                cumplimiento de la obligación alimentaria.
+              </p>
+
+              <h3 className="text-xl font-semibold  mb-4">
+                ¿Qué es el Registro Nacional de Deudores de Pensiones de
+                Alimentos?
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Este registro, administrado por el Servicio de Registro Civil e
+                Identificación, incluye a personas que además de tres
+                mensualidades consecutivas o cinco discontinuas de alimentos no
+                pagados, exista, una resolución judicial que lo ordene. La
+                inscripción se realiza mensualmente por orden del tribunal de
+                familia correspondiente.
+              </p>
+              <h3 className="text-xl font-semibold  mb-4">
+                Consecuencias de estar inscrito en el registro
+              </h3>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Retención de fondos:</strong> Se pueden retener
+                    devoluciones de impuestos, fondos de créditos y otros
+                    recursos financieros para saldar la deuda.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Restricciones en trámites:</strong> Los deudores no
+                    pueden renovar su licencia de conducir ni su pasaporte.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Limitaciones en transacciones:</strong> La venta de
+                    inmuebles o vehículos requiere acreditar que las ganancias
+                    se destinarán al pago de la deuda.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Impedimentos laborales:</strong> Se retiene un
+                    porcentaje del sueldo de quienes trabajan en el sector
+                    público o postulan a cargos de elección popular.Se retiene
+                    un porcentaje del sueldo de quienes trabajan en el sector
+                    público o postulan a cargos de elección popular.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Acceso a beneficios estatales:</strong> Los deudores
+                    no pueden acceder a ciertos programas o instrumentos
+                    financiados por el Estado, como los de la Agencia Nacional
+                    de Investigación y Desarrollo (Becas nivel superior,
+                    nacional y extranjero).
+                  </span>
+                </li>
+              </ul>
+              <h3 className="text-xl font-semibold  mb-4">
+                ¿Cómo salir del registro?
+              </h3>
+              <p className="text-lg text-gray-700 mb-6">
+                Para ser eliminado del registro, el deudor debe pagar la
+                totalidad de la deuda o establecer un acuerdo de pago aprobado
+                por el tribunal. Una vez cumplido, se solicita al tribunal la
+                eliminación del registro.
+              </p>
+
+              <Button
+                asChild
+                className="bg-mediacion-blue hover:bg-mediacion-lightBlue"
+              >
+                <Link to="/contacto">
+                  Solicitar información
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Familia Mediation Services */}
+      <section id="compensacion" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="flex items-center mb-6">
+                <div className="bg-mediacion-blue/10 p-3 rounded-full text-mediacion-blue mr-4">
+                  <Users className="h-6 w-6" />
+                </div>
+                <h2 className="text-3xl font-bold text-mediacion-blue">
+                  MEDIACIÓN FAMILIAR VOLUNTARIA SOBRE COMPENSACIÓN ECONÓMICA Y
+                  DECLARACIÓN DE BIENES FAMILIARES
+                </h2>
+              </div>
+
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro también mediamos sobre
+                materias relacionadas a la compensación económica y declaración
+                de bienes familiares.
+              </p>
+
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                ¿Qué es la compensación económica?
+              </h3>
+
+              <p className="text-lg text-gray-700 mb-6">
+                Es un derecho que puede solicitar el cónyuge o conviviente civil
+                que haya visto afectado su patrimonio o carrera laboral por
+                priorizar el hogar o los hijos; y surge al momento de disolverse
+                el matrimonio o el Acuerdo de Unión Civil (AUC), y tiene como
+                objetivo reparar el menoscabo económico que sufre uno de los
+                cónyuges o convivientes civiles por haberse dedicado
+                preferentemente al cuidado de los hijos y/o las labores del
+                hogar común, en desmedro de su vida laboral o profesional.
+              </p>
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                ¿Qué es la declaración de bien familiar?
+              </h3>
+
+              <p className="text-lg text-gray-700 mb-6">
+                Es un proceso legal que, en Chile, permite proteger el hogar
+                principal de la familia y los muebles que la componen,
+                garantizando que no puedan ser vendidos, arrendados o gravados
+                sin la autorización del cónyuge no propietario, con el fin de
+                proteger el hogar en común. Quienes pueden solicitar la
+                declaración, será cualquiera de los cónyuges o convivientes
+                civiles, en ciertos casos, incluso si hay separación o se vive
+                en lugares distintos.
+              </p>
+
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>¿Qué se puede declarar como bien familiar?</strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>La vivienda que sirve de hogar común.</strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Los bienes muebles esenciales</strong> (como
+                    electrodomésticos, muebles, etc.) ubicados en esa vivienda.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Efectos principales:</strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Protección legal</strong> del inmueble y bienes.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong></strong> El cónyuge no propietario no necesita
+                    inscribir derechos de propiedad.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong></strong> El propietario no puede vender, hipotecar
+                    o arrendar el inmueble sin el consentimiento del otro.
+                  </span>
+                </li>
+              </ul>
+
+              <Button
+                asChild
+                className="bg-mediacion-blue hover:bg-mediacion-lightBlue"
+              >
+                <Link to="/contacto">
+                  Solicitar información
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/mediaciondda4.jpg"
+                  alt="Mediación familiar"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Familia Mediation Services */}
+      <section id="voluntaria" className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/mediaciondda4.jpg"
+                  alt="Mediación familiar"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            <div className="md:w-1/2">
+              <div className="flex items-center mb-6">
+                <div className="bg-mediacion-blue/10 p-3 rounded-full text-mediacion-blue mr-4">
+                  <Users className="h-6 w-6" />
+                </div>
+                <h2 className="text-3xl font-bold text-mediacion-blue">
+                  MEDIACIÓN FAMILIAR VOLUNTARIA SOBRE AUTORIZACIÓN SALIDA DEL
+                  PAÍS DE NIÑOS, NIÑAS Y ADOLESCENTES
+                </h2>
+              </div>
+
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro somos una instancia útil
+                en los conflictos entre padres o madres respecto a la
+                autorización para que un niño, niña o adolescente (NNA) salga
+                del país, cuando hay desacuerdo entre los padres (por ejemplo,
+                uno quiere autorizar y el otro no), la mediación se ofrece como
+                un mecanismo alternativo para evitar un juicio de familia. Si la
+                mediación resulta exitosa, se puede firmar un acuerdo que tenga
+                valor legal.
+              </p>
+
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                ¿Cuándo es necesaria la autorización?
+              </h3>
+
+              <p className="text-lg text-gray-700 mb-6">
+                Un niño, niña o adolescente necesita autorización para salir de
+                Chile si:
+              </p>
+
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Viaja solo o con un tercero</strong> (como un
+                    familiar o tutor).
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Viaja con solo uno de los padres,</strong> sin la
+                    presencia del otro.
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      No se cuenta con la custodia total o hay medidas
+                      judiciales vigentes.
+                    </strong>
+                  </span>
+                </li>
+                <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                  ¿Qué pasa si uno de los padres no da la autorización?
+                </h3>
+                <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                  Opciones:
+                </h3>
+
+                <ul className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Mediación familiar:</strong>{" "}
+                    <li>
+                      Se puede acudir a un mediador familiar (privado o del
+                      Ministerio de Justicia).
+                    </li>
+                    <li>
+                      Si ambas partes están de acuerdo, pueden firmar un acuerdo
+                      de autorización ante notario o tribunal.
+                    </li>
+                    <li>
+                      Este acuerdo tiene valor judicial si es aprobado por el
+                      juez de familia.
+                    </li>
+                  </span>
+                </ul>
+                <ul className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Autorización judicial directa:</strong>
+                    <li>
+                      Si no hay acuerdo en la mediación, o una de las partes se
+                      niega a participar, el padre o madre que desee salir del
+                      país con el niño puede solicitar al Juzgado de Familia una
+                      autorización judicial.
+                    </li>
+                  </span>
+                </ul>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>En resumen:</strong>
+                    <li>
+                      La mediación es voluntaria, pero muy recomendada para
+                      evitar un juicio.
+                    </li>
+                    <li>
+                      Si no hay acuerdo, el tribunal puede otorgar la
+                      autorización para la salida del país.
+                    </li>
+                    <li>
+                      El interés superior del NNA siempre será el criterio
+                      principal.
+                    </li>
+                  </span>
+                </li>
+              </ul>
+
+              <Button
+                asChild
+                className="bg-mediacion-blue hover:bg-mediacion-lightBlue"
+              >
+                <Link to="/contacto">
+                  Solicitar información
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Online Mediation Services */}
-      <section id="online" className="py-16 bg-mediacion-beige">
+      <section id="formularios" className="py-16 bg-mediacion-beige">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
             <div className="md:w-1/2">
@@ -126,57 +866,239 @@ const Services = () => {
                   <Video className="h-6 w-6" />
                 </div>
                 <h2 className="text-3xl font-bold text-mediacion-blue">
-                  Mediación Online
+                  OTROS SERVICIOS DE MEDIACIÓN FAMILIAR SOBRE ELABORACIÓN DE
+                  INFORMES SOCIALES EN LO EDUCATIVO
                 </h2>
               </div>
 
               <p className="text-lg text-gray-700 mb-6">
-                Nuestra mediación online ofrece todas las ventajas de la
-                mediación presencial, pero con la comodidad y flexibilidad de
-                participar desde cualquier lugar. Utilizamos plataformas seguras
-                y fáciles de usar para garantizar una experiencia de calidad.
+                En Mediación Familiar Diego de Almagro encontrará un espacio de
+                apoyo para la elaboración de informes sociales, fundamentales
+                para acceder a diversos beneficios sociales. El informe social
+                en el área educativa, es elaborado por un/a Trabajador/a Social,
+                quien describe la detalladamente la situación socioeconómica,
+                familiar y personal del estudiante, con la finalidad de
+                respaldar la postulación o renovación de beneficios
+                estudiantiles, facilitar apoyos institucionales o intervenir
+                ante situaciones de vulnerabilidad.
               </p>
 
               <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
-                Beneficios de la mediación online:
+                ¿Para qué se utiliza en Educación Media y Nivel Superior?
               </h3>
 
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
                   <span>
-                    <strong>Accesibilidad:</strong> Participa desde cualquier
-                    lugar, ideal para quienes viven lejos o tienen dificultades
-                    para desplazarse.
+                    <strong>En Educación Media:</strong>
+                    <li>
+                      Solicitud o renovación de becas JUNAEB (Beca Presidente de
+                      la República, Beca Indígena, Beca Residencia, entre
+                      otras).
+                    </li>
+                    <li>
+                      Postulación a programas de apoyo psicosocial o económico.
+                    </li>
+                    <li>
+                      Justificación de inasistencias prolongadas por problemas
+                      familiares o sociales.
+                    </li>
+                    <li>Derivación a redes de apoyo social o salud mental.</li>
                   </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
                   <span>
-                    <strong>Flexibilidad:</strong> Mayor facilidad para agendar
-                    sesiones que se adapten a tu horario.
+                    <strong>En Educación Superior:</strong>{" "}
+                    <li>
+                      Postulación y renovación de beneficios como:{" "}
+                      <li>
+                        <strong>Gratuidad</strong>
+                      </li>
+                      <li>
+                        <strong>
+                          Becas de arancel (Bicentenario, Juan Gómez Millas,
+                          etc.)
+                        </strong>
+                      </li>
+                      <li>
+                        <strong>Crédito con Aval del Estado (CAE)</strong>
+                      </li>
+                    </li>
                   </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
                   <span>
-                    <strong>Comodidad:</strong> Participa desde un entorno
-                    familiar y cómodo para ti.
+                    Acreditación de
+                    <strong>vulnerabilidad socioeconómica.</strong>
                   </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
                   <span>
-                    <strong>Misma calidad:</strong> Mantenemos los mismos
-                    estándares profesionales y éticos que en la mediación
-                    presencial.
+                    <strong></strong> Apoyo en procesos de suspensión o
+                    continuidad de estudios por causas personales/familiares.
                   </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
                   <span>
-                    <strong>Seguridad:</strong> Utilizamos plataformas seguras
-                    que protegen tu privacidad y confidencialidad.
+                    <strong></strong> Solicitud de residencia estudiantil,
+                    alimentación, transporte u otros apoyos institucionales.
+                  </span>
+                </li>
+              </ul>
+
+              <Button
+                asChild
+                className="bg-mediacion-blue hover:bg-mediacion-lightBlue"
+              >
+                <Link to="/contacto">
+                  Agendar sesión online
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Online Mediation Services */}
+      <section id="beneficios" className="py-16 bg-mediacion-beige">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
+            <div className="md:w-1/2">
+              <div className="rounded-lg overflow-hidden">
+                <img
+                  src="/mediacionddabg2.jpg"
+                  alt="Mediación online"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+
+            <div className="md:w-1/2">
+              <div className="flex items-center mb-6">
+                <div className="bg-mediacion-blue/10 p-3 rounded-full text-mediacion-blue mr-4">
+                  <Video className="h-6 w-6" />
+                </div>
+                <h2 className="text-3xl font-bold text-mediacion-blue">
+                  OTROS SERVICIOS DE MEDIACIÓN FAMILIAR SOBRE ELABORACIÓN DE
+                  INFORMES SOCIALES PARA BENEFICIOS HABITACIONALES Y SALUD
+                </h2>
+              </div>
+
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro encontrará un espacio de
+                apoyo para la elaboración de informes sociales, fundamentales
+                para acceder a diversos beneficios sociales.
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
+                En Mediación Familiar Diego de Almagro encontrará un espacio de
+                apoyo para la elaboración de informes sociales, fundamentales
+                para acceder a diversos beneficios sociales.
+              </p>
+              <p>
+                El informe social en el área habitacional y de salud, es un
+                <strong>
+                  requisito clave para postular o acceder a ciertos programas y
+                  beneficios
+                </strong>
+                del Estado, especialmente cuando se debe acreditar
+                <strong>situaciones de vulnerabilidad o urgencia.</strong>
+              </p>
+              <h3 className="text-xl font-semibold text-mediacion-blue mb-4">
+                En lo habitacional, ¿para qué beneficios se utilizan?
+              </h3>
+
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      Subsidio Habitacional (DS49, DS1, DS19, etc.):
+                    </strong>
+                    <li>
+                      Compra de vivienda nueva o usada.Acredita la necesidad
+                      urgente de vivienda o mejoramiento.
+                    </li>
+                    <li>
+                      Complementa el puntaje del Registro Social de Hogares
+                      (RSH).
+                    </li>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Postulación a programas del SERVIU y MINVU:</strong>
+                    <li>Compra de vivienda nueva o usada.</li>
+                    <li>o Construcción en sitio propio.</li>
+                    <li>o Mejoramiento de vivienda, baños, techumbres.</li>
+                    <li>
+                      Postulación a programas de apoyo psicosocial o económico.
+                    </li>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Casos especiales:</strong>{" "}
+                    <li>
+                      Situaciones de hacinamiento, allegamiento, viviendas en
+                      mal estado o insalubres
+                      <li></li>
+                      <li>
+                        <strong>Crédito con Aval del Estado (CAE)</strong>
+                      </li>
+                    </li>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      En salud, ¿para qué beneficios se utilizada?
+                    </strong>
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>
+                      Acceso a tratamientos médicos de alto costo:
+                    </strong>{" "}
+                    <li>
+                      Acreditar vulnerabilidad para acceder al{" "}
+                      <strong>
+                        Fondo Nacional de Medicamentos (FONASA Nivel 0).
+                      </strong>{" "}
+                    </li>{" "}
+                  </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-mediacion-green mr-2 mt-0.5 flex-shrink-0" />
+                  <span>
+                    <strong>Compra o entrega de ayudas técnicas:</strong>Sillas
+                    de ruedas, audífonos, gatos clínicos, prótesis (a través de
+                    SENADIS o JUNAEB).
+                    <strong>
+                      <li>Traslados y derivaciones médicas interregionales:</li>
+                    </strong>{" "}
+                    Solicitudes de apoyo logístico o de alojamiento.
+                    <strong>
+                      {" "}
+                      <li>
+                        Postulación a programas de ayuda solidaria en hospitales
+                        públicos:
+                      </li>
+                    </strong>{" "}
+                    <li>
+                      Farmacia solidaria, entrega de pañales, insumos,
+                      alimentación.
+                    </li>
                   </span>
                 </li>
               </ul>
