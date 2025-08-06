@@ -1,5 +1,8 @@
-import { Clock, Mail, MapPin, Phone } from "lucide-react";
+import { Calendar, Clock, Mail, MapPin, Phone } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
+import ServiceCard from "@/components/ServiceCard";
+import { PagoCard } from "./Reserve";
+import { ReservaPago } from "@/components/ReservaPago";
 
 const Contact = () => {
   return (
@@ -137,6 +140,11 @@ const Contact = () => {
                     </svg>
                   </a>
                 </div>
+              </div>
+              <br />
+
+              <div className="min-h-screen flex items-center justify-center bg-gray-100">
+                <ReservaPago />
               </div>
             </div>
 
